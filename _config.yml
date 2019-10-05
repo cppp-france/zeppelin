@@ -13,12 +13,12 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "CPPP Conference"
 email: "cppp@gmail.com"
 description: "A C++ Conference in the heart of Paris"
-baseurl: "/zeppelin"
-url: "https://cppp-france.github.io"
+baseurl: ""
+url: "https://cppp.fr"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsTrackingId: "UA-149463947-1"
 googleAnalyticsSiteUrl: "cppp.fr"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "C++FrUG"
