@@ -133,6 +133,7 @@ footerBlocks:
   title: "FAQ"
   links:
    - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/privacy/", text: "Privacy Policy"}
  -
   title: "Artists"
   links:
