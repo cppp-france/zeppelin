@@ -68,9 +68,6 @@ We honor Do Not Track signals and do not track or plant cookies when a Do Not Tr
 
 We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information. We may release information when its release is appropriate to comply with and forced by the law.
 
-Non-personally identifiable visitor information may be provided to other parties for (re)marketing, advertising, or other uses.
-
-
 #### Breach Notifications
 
 We use SSL encryption in the transmission of your personal information between your system and ours. However, no system can be completely secure. No method of transmission over the internet, or method of electronic storage is 100% secure and we are unable to guarantee the absolute security of the Personal Information we have collected from you.
@@ -112,12 +109,10 @@ contact@cppp.fr
 #### How to manage cookies
 
 You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.
-Privacy policies of other websites
 
 #### Privacy policies of other websites
 
 The CPPP website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
-Changes to our privacy policy
 
 #### Changes to our privacy policy
 
