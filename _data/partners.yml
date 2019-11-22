@@ -10,7 +10,7 @@
     - {name: "C++ On Sea", description: "C++ On Sea", link: "https://cpponsea.uk/", imageUrl: "cpponsea.png"}
     - {name: "Compiler Explorer", description: "Compiler Explorer", link: "https://godbolt.org/", imageUrl: "Compiler-Explorer.svg"}
     - {name: "Core C++", description: "Core C++", link: "https://corecpp.org/", imageUrl: "corecpp_logo.svg"}
-    - {name: "CppCast", description: "CppCast", link: "https://corecpp.org/", imageUrl: "cppCast.png"}
+    - {name: "CppCast", description: "CppCast", link: "https://cppcast.com/", imageUrl: "cppCast.png"}
     - {name: "Fluent C++", description: "Fluent C++", link: "https://www.fluentcpp.com/", imageUrl: "fluent_cpp.png"}
     - {name: "CppCon", description: "CppCon", link: "https://cppcon.org/", imageUrl: "cppcon_logo.png"}
     - {name: "#include<C++>", description: "#include<C++>", link: "https://includecpp.org/", imageUrl: "rainbow_include_logo.png"}
