@@ -1,0 +1,58 @@
+- 
+  date: "2019-06-15"
+  dateReadable: "June 15 2019"
+  tracks: 
+    - {title: "Progress", color: "#90be4e"}
+    - {title: "Produce", color: "#03a9f4"}
+    - {title: "Push Forward", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "08:30",
+    	endTime: "09:00",
+    	sessionIds: [001]
+    }
+    - {
+        startTime: "09:00",
+        endTime: "11:00",
+        sessionIds: [002]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:30",
+        sessionIds: [307]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:30",
+    	sessionIds: [103, 203, 303]
+    }
+    - {
+    	startTime: "12:30",
+    	endTime: "14:30",
+    	sessionIds: [503]
+    }
+    - {
+    	startTime: "14:30",
+    	endTime: "16:00",
+    	sessionIds: [104, 204, 304]
+    }
+    - {
+    	startTime: "16:00",
+    	endTime: "16:30",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "16:30",
+    	endTime: "17:30",
+    	sessionIds: [105, 205, 305]
+    }
+    - {
+    	startTime: "17:45",
+    	endTime: "18:45",
+    	sessionIds: [106, 206, 306]
+    }
+    - {
+    	startTime: "19:00",
+    	endTime: "19:30",
+    	sessionIds: [007]
+    }

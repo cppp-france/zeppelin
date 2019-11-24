@@ -1,59 +1,127 @@
 -
   id: 307
   title: "Coffee Break"
-  place: "Hall"
   service: true
-  description: "The best time to talk with speakers and attendees"
 -
   id: 503
   title: "Lunch Break"
-  place: "Dining room"
   service: true
 -
   id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3, 6]
+  title: "Introduction"
+  speakers: [13, 14]
   language: en
-  complexity: "Intermediate"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
 -
   id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
-  subtype: presentation
-  speakers: [4, 5]
+  title: "Emotional Code"
+  description: "Programmers, it turns out, are human beings. This means they not only feel emotions, they leave traces of those emotions behind in their code. Kate will show you why that is so, and what you can do about it."
+  subtype: keynote
+  speakers: [1]
   language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/emotional_code-Kate_Gregory"
+  video: "https://www.youtube.com/embed/zjH2d5VhTD8"
 -
-  id: 003
-  title: "Android L Animation"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
+  id: 103
+  title: "Améliorer votre C++ avec les algorithmes de la STL"
+  description: "Le C++ dit \"Moderne\" mets l'accent sur la généricité et l'expressivité du code.<p/>Les algorithmes de la bibliothèque standard en sont un parfait exemple, capables d'accomplir toutes sortes d'opérations sur des collections, qu'importe leur type.<p/>Dans cette session, nous rappellerons le concept des itérateurs et comment ils sont utilisés pour lier les conteneurs aux algorithmes, puis nous explorerons les algorithmes les plus commun offerts par la STL et comment les utiliser pour résoudre simplement bon nombres de problèmes liés aux collections en C++.<p/>Enfin nous conclurons avec un aperçu du futur et comment C++20 rendra les algorithmes encore meilleurs."
   subtype: presentation
   speakers: [4]
+  language: fr
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/how_to_make_your_code_better_with_C%2B%2B_algorithms-Mathieu_Ropert"
+-
+  id: 203
+  title: "Tools to Ease Cross-Platform C++ Development"
+  description: "Writing high-quality error-free C++ code itself is a challenging task, let alone when having to juggle multiple platforms at the same time! In this session, I will talk about many challenges in cross-platform C++ development and how tools can help: what options do I have if my production environment is different than my dev box? Can I be as productive when working with remote Linux machines? Is there any good C++ editor that works consistently on all platforms I work on? How can I efficiently build and debug CMake projects, or even get IntelliSense? How can I easily find and acquire open sourced libraries? Is there an easy way to write and run cross-platform tests? Come to see what Visual Studio 2017, Visual Studio Code, CMake, WSL, Vcpkg and more have to offer to make cross-platform C++ development much easier in this demo-heavy talk."
+  subtype: presentation
+  speakers: [3]
   language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/tools_to_ease_cross_platform_C%2B%2B_development-Simon_Brand"
+  video: "https://www.youtube.com/embed/c8ZWdLCqnw4"
 -
-  id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
+  id: 303
+  title: "A State of Compile Time Regular Expressions"
+  description: "In this talk I will present an advancement on the Compile Time Regular Expression (CTRE) Library. The library was designed with new C++20 features, and it uses novel techniques. This presentation sums up the recent work on the library.<p/>One of the primary topics of this talk will be an explanation of the new Deterministic Finite Automaton (DFA) engine in the library and how it's built and optimised during compilation. I will explain the differences and limitations of the new engine in comparison to the previous Back Tracking engine.<p/>I will address these differences with a benchmark and I will discuss the generated assembly. Even if you are not interested in regular expressions, you will learn new techniques in compile-time meta-programming and see new C++20 features in action."
+  subtype: presentation
+  speakers: [2]
+  language: en
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/a_state_of_compile_time_regular_expressions-Hana_Dusikova"
+  video: "https://www.youtube.com/embed/i7H5TSVJy0Y"
+-
+  id: 104
+  title: "Workshop: Preparing your Recruitment Tests"
+  description: "In this workshop, attendees will do mock interviews with people who are involved in recruitment for developers roles.<p/>Each mock interview will be followed by a retrospective of what went well and which point to work on."
+  subtype: presentation
+  language: en - fr
+-
+  id: 204
+  title: "Adding a New clang-tidy Check by the Practice"
+  description: "The LLVM tool suite has changed the rules of C++ codeline evolution by allowing to manipulate the AST. As example, we can list all the popular clang-tidy checks like \"modernize-replace-auto-ptr\" which allows to replace old C++98 std::auto_ptr usages by C++11 std::unique_ptr.<p/>However, adding a new check to clang-tidy could be difficult as the C++ AST is complex and the clang API rich without knowing where to start.<p/>The purpose here will be to present how to create a simple rule and as an example, we will try to replace some standard algorithm by the new range ones.<p/>This live coding session will present step by step how to:<br/>- Integrate a new check to clang-tidy<br/>- Manipulate the AST matchers<br/>- Create a Fix-it<br/>- Unittest it"
+  subtype: presentation
   speakers: [6]
-  language: uk
-  complexity: "Beginner"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  language: en
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/adding_a_new_clang-tidy_check-Jeremy_Demeule"
+  video: "https://www.youtube.com/embed/K-WhaEUEZWc"
 -
-  id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
+  id: 304
+  title: "C++ Modules: What You Should Know"
+  subtype: presentation
   speakers: [7]
   language: en
-  complexity: "Expert"
-  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/C%2B%2B_modules_what_you_should_know-Gabriel_Dos_Reis"
+  video: "https://www.youtube.com/embed/MP6SJEBt6Ss"
+-
+  id: 105
+  title: "Merci le Compilo!"
+  description: "On parle souvent du langage C++ comme d'un langage alliant performance et abstraction. Mais la « sauce secrète » n'est connue que du compilateur, et c'est autant lui qu'il faut remercier que le langage qu'il compile.<p/>C++ a en effet cette particularité de devoir ses bonnes propriétés autant au standard qu'au bon vouloir des développeurs de compilateur, et aussi à la capacité du développeur à utiliser finement le compilateur pour qu'un même code atteigne des objectifs différents : portabilité ? facilité de debug ? empreinte mémoire ? sécurité ? performance ? vitesse de compilation ?<p/>À nous de bien connaître le compilateur pour utiliser la bonne combinaison d'option suivant ce que l'ont veut faire de son code."
+  subtype: presentation
+  speakers: [8]
+  language: fr
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/merci_le_compilo-Serge_Guelton"
+-
+  id: 205
+  title: "The Anatomy of an Exploit"
+  description: "Security vulnerabilities and secure coding is often talked about in the abstract by programmers, but rarely understood. In this talk we will walk through a simple exploit, how it’s developed and how it’s used. The goal is to try to get a feeling for the point of view of an \"attacker\", and to slowly start looking at exploitation as another programming tool. We will mainly be looking at C and x86_64 assembly, so bring snacks."
+  subtype: presentation
+  speakers: [9]
+  language: en
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/the_anatomy_of_an_exploit-Patricia_Aas"
+  video: "https://www.youtube.com/embed/RR_pcY6wqUw"
+-
+  id: 305
+  title: "Tacit DSL All the Things"
+  description: "Can't we just add a functional programming language to C++ as a DSL that integrates seamlessly? Would that be a good thing? Would I have to understand category theory to use it? Whether or not you are a fan of domain-specific languages it seems we are getting one in C++20's standard library. The ranges DSL brings with it some high-level concepts and with a little abuse many more concepts, from functional programming. At the same time, there seems to be interest in other DSLs bringing other functional concepts such as monadic extensions to optional or monadic composition of asynchronous tasks. But why in separate DSLs? This seems odd because unifying things is at the very heart of functional programming.<p/>In this talk, I will make the argument that with 3 small extensions to the ranges DSL syntax we can make one DSL to rule them all lifting may existing C++ language and library features into a more functional or declarative paradigm as well as unifying many boost libraries. After refreshing the core concepts of the ranges DSL and presenting my proposed extentions we will take a whirlwind tour of how I think we should add functional programming paradigms to C++ in a unified manner. We will rethink sum types, fusion metaprogramming, event-based programming, monads, Haskell do notation, closure's transducers, rust's match, named/deduced parameters, state machines, \"terser\" lambda syntax, pointfree programming, generative programming, and declarative programming paradigms."
+  subtype: presentation
+  speakers: [5]
+  language: en
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/tacit_dsl_all_the_things-Odin_Holmes"
+-
+  id: 106
+  title: "Élégance, style épuré et classe"
+  description: "Écrire une classe en C++ n’est pas un exercice aussi simple que ce que l’on pourrait espérer. Au-delà des questions d’architecture, une multitude de détails techniques peuvent être autant d’embûches pour le développeur un peu candide : constructeurs de copie, opérateurs d’affectation, comparaison, sémantique de déplacement…<p/>Le parti pris de cette présentation ne sera pas d’entrer successivement dans toutes les particularités de ces opérations, mais plutôt de partir de l’approche inverse : essayer de catégoriser les différentes sortes de classes que l’on rencontre régulièrement, afin de voir pour chacune d’entre elles comment n’écrire que le minimum nécessaire. Notre objectif : obtenir un code robuste et maintenable, des classes élégantes et épurées."
+  subtype: presentation
+  speakers: [10]
+  language: fr
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/elegance_style_epure_et_classe-Loic_Joly"
+-
+  id: 206
+  title: "Quickly Testing Legacy Code"
+  description: "You've inherited some legacy code: it's valuable, but it doesn't have tests, and it wasn't designed to be testable, so you need to start refactoring! But you can't refactor safely until the code has tests, and you can't add tests without refactoring. How can you ever break out of this loop?<p/>I will present a new C++ library for applying Llewellyn Falco's \"Approval Tests\" approach to testing cross-platform C++ code - for both legacy and green-field systems, and a range of testing frameworks.<p/>I will describe its use in some real-world situations, including how to quickly lock down the behaviour of legacy code. I will show how to quickly achieve good test coverage, even for very large sets of inputs. Finally, I will also describe some general techniques I learned along the way."
+  subtype: presentation
+  speakers: [11]
+  language: en
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/quickly_testing_legacy_code-Clare_Macrae"
+  video: "https://www.youtube.com/embed/JnoNTc-BmB8"
+-
+  id: 306
+  title: "Identifying Monoids: Exploiting Compositional Structure in Code"
+  description: "Composition is the essence of code architecture, and monoids are a powerful and underappreciated compositional pattern that is lurking in code of all kinds. Identifying and exploiting monoids is perhaps the best way to improve our code's large-scale architecture, in the same way that recognizing algorithms and replacing raw loops is a great way to improve small-scale architecture.<p/>When we start looking for monoids, we find that they are everywhere, and it's not just about std::accumulate with addition! In this talk I want to develop an intuition for recognizing this ubiquitous design pattern. I will show some ways to think about code capabilities at a higher level, and how thinking in terms of monoids can help us with things like API design, incremental computation, evolving system state and distributing work. Along the way we'll also look at how C++ language and library features can support putting monoids to work in our code."
+  subtype: presentation
+  speakers: [12]
+  language: en
+  video: "https://www.youtube.com/embed/on7v8nlyaAg"
+  presentation: "https://github.com/cppp-france/CPPP-19/tree/master/identifying_monoids-Ben_Deane"
+-
+  id: 007
+  title: "Conclusion"
+  language: en
+  speakers: [13, 14]

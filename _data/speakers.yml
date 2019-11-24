@@ -1,67 +1,94 @@
 - 
+  id: 1
+  name: "Kate"
+  surname: "Gregory"
+  bio: "Kate Gregory has been using C++ since before Microsoft had a C++ compiler, and has been paid to program since 1979. She loves C++ and believes that software should make our lives easier. That includes making the lives of developers easier! She'll stay up late arguing about deterministic destruction or how modern C++ is not the C++ you remember. Kate runs a small consulting firm in rural Ontario and provides mentoring and management consultant services, as well as writing code every week. She has spoken all over the world, written over a dozen books, and helped thousands of developers to be better at what they do. Kate is a Microsoft Regional Director, a Visual C++ MVP, an Imagine Cup judge and mentor, and an active contributor to StackOverflow and other StackExchange sites. She develops courses for Pluralsight, primarily on C++ and Visual Studio."
+  thumbnailUrl: KateGregory.jpg
+  rockstar: true
+- 
+  id: 2
+  name: "Hana"
+  surname: "Dusíková"
+  bio: "Hana is working as a senior researcher in Avast Software. Her responsibility is exploring new ideas and optimizing existing ones. She also propagates modern C++ techniques and libraries in internal techtalks and gives talks at local C++ meetups.<br/>She studied computer science at Mendel university and subsequently taught several courses there, including: Data Structures, Computability and Complexity, and Formal Languages and Automata."
+  thumbnailUrl: HanaDusikova.jpg
+  rockstar: true
+- 
   id: 3
-  name: "Dawid"
-  surname: "Ostrowski"
-  company: "Google Poland"
-  title: "Developer Relations Program Manager"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
-  thumbnailUrl: DawidOstrowski.jpg
+  name: "Simon"
+  surname: "Brand"
+  bio: "Simon Brand is Microsoft’s C++ Developer Advocate. Their background is in compilers and debuggers for embedded accelerators, but they’re also interested in generic library design, metaprogramming, functional-style C++, undefined behaviour, and making our communities more welcoming and inclusive."
+  thumbnailUrl: SimonBrand.jpg
   rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
-- 
+-
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  company: "Lemberg Solutions Limited"
-  title: "Android Developer"
-  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
-  thumbnailUrl: DmytroDanylyk.jpg
+  name: "Mathieu"
+  surname: "Ropert"
+  bio: "Mathieu s'est exilé en Suède pour programmer Europa Universalis chez Paradox Development Studio, le plus abouti des jeux de stratégie historique.<br/>Avant son départ il était co-organisateur du Meetup parisien C++ FRUG.<br/>Il a par le passé travaillé sur des frameworks de communication et sérialisation (SQL, REST...), une implémentation de la STL pour anciens compilateurs et sur divers noyaux de système d'exploitation.<br/>Ses sujets préférés sont le package management en C++, l'enseignement du C++ Moderne et autres bonnes pratiques de développement.<br/>Il tiens un blog (en anglais) sur le développement C++: https://mropert.github.io/"
+  thumbnailUrl: MathieuRopert.jpg
   rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
+-
   id: 5
-  name: "Mateusz"
-  surname: "Herych"
-  company: "Base CRM, GDG Krakow"
-  title: "Software Engineer"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: MateuszHerych.jpg
+  name: "Odin"
+  surname: "Olmes"
+  bio: "Odin was allocated from a pool of hippies in the middle of the forest. He spent most of his career designing electronic circuits and programming micro controllers in assembler. One day after having shot himself in the foot particularly badly a friend introduced him to C++, a seriously powerful and ongoing addiction followed. Odin has authored many proof of concept libraries in the embedded field and is trying to revolutionize this domain. Odin co-authored the kvasir::mpl library, co-founded the embo.io conference and was a heavy contributor to the brigand library. In his day job, he teaches people how to shoot themselves in the foot less and get more from their compiler, both with his in-house team as well as in a training and consulting role."
+  thumbnailUrl: OdinOlmes.jpg
   rockstar: true
-  ribbon: 
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-    - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
+-
   id: 6
-  name: "Roman"
-  surname: "Mazur"
-  company: "Stanfy, GDG Kyiv"
-  title: "Head of Android/Java Unit"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  thumbnailUrl: RomanMazur.jpg
+  name: "Jérémy"
+  surname: "Demeule"
+  bio: "Jérémy Demeule is a Principal Software Engineer at Murex. He is working on data manipulation subjects (database access, ORM, serialization) and likes to create clang based refactoring tools to facilitate his work."
+  thumbnailUrl: JeremyDemeule.jpg
   rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
-- 
+-
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  company: "Twinfield, GDG Kyiv"
-  title: "Software engineer/country manager"
-  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
-  thumbnailUrl: ValentynShybanov.jpg
+  name: "Gabriel"
+  surname: "Dos Reis"
+  bio: "Gabriel Dos Reis is a Principal Software Engineer at Microsoft, where he works in the area of large scale software construction, tools, and techniques. He is also a researcher, and a longtime member of the C++ community, author and co-author of numerous extensions to support compile-time and generic programming, and programming in the large.  His research interests include programming tools for dependable software. Prior to joining Microsoft, he was Assistant Professor at Texas A&M University.  Dr. Dos Reis was a recipient of the 2012 National Science Foundation CAREER award for his research in compilers for dependable computational mathematics and educational activities."
+  thumbnailUrl: GabrielDosReis.jpg
   rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+-
+  id: 8
+  name: "Serge"
+  surname: "Guelton"
+  bio: "Développeur bi-classé C++ et Python, alignement compilation / performance, employé par RedHat pour bosser sur LLVM en semaine, il se transforme en homme des bois le week end."
+  thumbnailUrl: SergeGuelton.jpg
+  rockstar: true
+-
+  id: 9
+  name: "Patricia"
+  surname: "Aas"
+  bio: "Patricia is a programmer who has worked mostly in C++ and Java. She has spent her career continuously delivering from the same code-base to a large user base. She has worked on two browsers (Opera and Vivaldi), worked as a Java consultant and on embedded telepresence endpoints for Cisco. She is focused on the maintainability and flexibility of software architecture, and how to extend it to provide cutting edge user experiences. Her focus on the end user has led her work more and more toward privacy and security, and she has recently started her own company, TurtleSec, hoping to contribute positively to the infosec and C++ communities. She is also involved in the Include C++ organization hoping to improve diversity and inclusion in the C++ community."
+  thumbnailUrl: PatriciaAas.jpg
+  rockstar: true
+-
+  id: 10
+  name: "Loïc"
+  surname: "Joly"
+  bio: "Loïc est développeur chez SonarSource, où il travaille sur un outil analysant automatiquement du code source C++ à la recherche de bugs ou de code mal écrit. Il est aussi un des représentants de la France au sein du comité de normalisation du C++. Particulièrement intéressé par la promotion, auprès de tous, de bonnes pratiques de programmation en C++, il donne aussi des formations en entreprises ou en écoles d'ingénieurs et participe à l'élaboration de normes de sécurité pour l'embarqué (MISRA C++)."
+  thumbnailUrl: LoicJoly.jpg
+  rockstar: true
+-
+  id: 11
+  name: "Clare"
+  surname: "Macrae"
+  bio: "Clare has worked in software development for over 30 years, and in C++ for 20 years.<p/>Since 2017, she has used her spare time to work remotely with Llewellyn Falco on <a href=\"https://github.com/approvals/ApprovalTests.cpp\">ApprovalTests.cpp</a>, to radically simplify testing of legacy code. She has enjoyed this so much that she recently went independent, to focus even more on helping others to work more easily with legacy code.<p/>Clare was until recently a Principal Scientific Software Engineer at Cambridge Crystallographic Data Centre, which releases structural data and powerful software for scientific education, research, and streamlining the design and manufacture of new medicines.<p/>From 2016 to 2018, she lead the team that replaced their 30 year old database format and Fortran code. She then returned to C++ and Qt, working on the popular 3D crystal structure visualisation program <a href=\"https://www.ccdc.cam.ac.uk/mercury\">Mercury</a>, which she was the original author of.<p/>When not thinking about supporting teams to streamline development, testing and releases, she spends time with family and friends, and enjoys the Raspberry Pi, folk music and cinema."
+  thumbnailUrl: ClareMacrae.jpg
+  rockstar: true
+-
+  id: 12
+  name: "Ben"
+  surname: "Deane"
+  bio: "Ben was in the game industry for 23 years, at companies like EA and Blizzard. He's always looking for useful new techniques in C++, and he geeks out on algorithms, APIs, types and functional programming."
+  thumbnailUrl: BenDeane.jpg
+  rockstar: true
+-
+  id: 13
+  name: "Joël"
+  surname: "Falcou"
+  thumbnailUrl: JoelFalcou.jpg
+-
+  id: 14
+  name: "Fred"
+  surname: "Tingaud"
+  thumbnailUrl: FredTingaud.jpg
