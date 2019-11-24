@@ -36,8 +36,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-#c4pUrl: "https://bit.ly/dfua-c4p"
-#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "/assets/Sponso_CPPP_2020_en.pdf"
+c4sponsorsUrl: "/assets/Sponso_CPPP_2020_en.pdf"
 
 
 # Navigation
@@ -47,8 +47,8 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/schedule2019/", text: "Previous Edition"}
-#bottomNavigationLinks:
-# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+bottomNavigationLinks:
+ - {permalink: "/assets/Sponso_CPPP_2020_en.pdf", text: "Become a Sponsor"}
 #rightNavigationButtons:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
@@ -56,6 +56,8 @@ navigationLinks:
 heroImage: "header.png"
 heroTitle: "CPPP 2020"
 eventDate: "June 22-23, 2020"
+heroButtons:
+ - {link: "/assets/Sponso_CPPP_2020_en.pdf", text: "Sponsor CPPP"}
 
 # About Block
 aboutTitle: "An international C++ conference in the heart of Paris"
