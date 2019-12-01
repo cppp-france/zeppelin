@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Come talk at CPPP"
+date:   2019-12-01 04:00:00
+isStaticPost: false
+---
+
+Have you been thinking about giving a talk at a C++ conference?
+
+We opened the call for proposals for CPPP: <https://cppp.fr/cfp/>
+
+Whether you are a seasoned speaker or it is the first time you think about it, you can propose a talk. You can contact us at [presentation@cppp.fr](mailto:presentation@cppp.fr) if you feel unsure and want some help writing the proposal.
+
+You have until 29th of February 2020 to write your proposal, but don't hesitate to send it earlier.
+
+#### Any questions? 
+
+For general questions, email us at [contact@cppp.fr](mailto:contact@cppp.fr)
+
+For question about giving a talk at CPPP, contact us at [presentation@cppp.fr](mailto:presentation@cppp.fr)
