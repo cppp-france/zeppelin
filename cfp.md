@@ -45,7 +45,7 @@ eg: What could C++ learn from functional programming? What will C++ 20 modules l
 
 If you feel unsure about how your talk or how to present it, you can ask us for help! Contact [presentation@cppp.fr](mailto:presentation@cppp.fr) with your questions and talk ideas and we can help you. Try doing it as soon as possible to ensure there is enough time for us to answer you and for you to have enough time to write your proposal before the deadline.
 
-##### Financialy
+##### Financially
 
 If you are selected to be a speaker, we will cover the price of the ticket for you. We will also give you one additional ticket if you want to come accompanied (said ticket should not be resold).
 
