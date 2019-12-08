@@ -7,7 +7,7 @@
             <h5>{{ partner.group }}</h5>
             <ul class="list-inline">
                 {% for element in partner.elements %}
-                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                <li {% if element.width !=null %}style="width: {{ element.width }};" {% endif %}>
                     <a href="{{ element.link }}" target="_blank">
                         <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                     </a>
@@ -15,7 +15,8 @@
                 {% endfor %}
             </ul>
             {% endfor %}
-            <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
+            <a href="{{ site.c4sponsorsUrlEn | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButtonEn }}</a>
+            <a href="{{ site.c4sponsorsUrlFr | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButtonFr }}</a>
         </div>
     </div> 
 </section>

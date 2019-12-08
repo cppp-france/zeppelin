@@ -36,8 +36,9 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "/assets/Sponso_CPPP_2020_en.pdf"
-c4sponsorsUrl: "/assets/Sponso_CPPP_2020_en.pdf"
+c4pUrl: "/cfp/"
+c4sponsorsUrlEn: "/assets/Sponso_CPPP_2020_en.pdf"
+c4sponsorsUrlFr: "/assets/Sponso_CPPP_2020_fr.pdf"
 
 
 # Navigation
@@ -59,7 +60,7 @@ heroTitle: "CPPP 2020"
 eventDate: "June 22-23, 2020"
 heroButtons:
  - {link: "/cfp/", text: "Talk at CPPP"}
- - {link: "/assets/Sponso_CPPP_2020_en.pdf", text: "Sponsor CPPP"}
+ - {link: "/sponsor/", text: "Sponsor CPPP"}
 
 # About Block
 aboutTitle: "An international C++ conference in the heart of Paris"
@@ -110,7 +111,8 @@ twitterHashTag: "CpppFr"
 
 # Partners Block
 sponsorsTitle: "Our Sponsors"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersC4sponsorsButtonEn: "Become a sponsor<br/>(English)"
+partnersC4sponsorsButtonFr: "Become a sponsor<br/>(French)"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
