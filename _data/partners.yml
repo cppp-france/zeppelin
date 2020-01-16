@@ -4,6 +4,7 @@
 - 
   group: "Sponsors"
   elements: 
+    - {name: "think-cell", description: "think-cell", link: "https://www.think-cell.com/developers/", imageUrl: "thinkcell.png"}
 - 
   group: "Community Sponsors"
   elements: 
