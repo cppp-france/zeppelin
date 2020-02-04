@@ -1,6 +1,7 @@
 - 
   group: "Gold Sponsors"
   elements: 
+    - {name: "Murex", description: "Murex", link: "https://www.murex.com/", imageUrl: "murex.svg"}
 - 
   group: "Sponsors"
   elements: 
