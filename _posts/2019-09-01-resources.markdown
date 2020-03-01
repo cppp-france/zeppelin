@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Videos and Slides"
+title:  "Videos and slides"
 date:   2019-09-01 09:00:00
 isStaticPost: false
 ---

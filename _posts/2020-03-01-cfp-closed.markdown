@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Talk Submissions are Closed"
+title:  "Talk submissions are closed"
 date:   2020-03-01 04:00:00
 isStaticPost: false
 ---
