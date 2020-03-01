@@ -44,7 +44,7 @@ c4sponsorsUrlFr: "/assets/Sponso_CPPP_2020_fr.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/cfp/", text: "Talk at CPPP"}
+# - {permalink: "/cfp/", text: "Talk at CPPP"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
@@ -59,7 +59,7 @@ heroImage: "header.png"
 heroTitle: "CPPP 2020"
 eventDate: "June 22-23, 2020"
 heroButtons:
- - {link: "/cfp/", text: "Talk at CPPP"}
+# - {link: "/cfp/", text: "Talk at CPPP"}
  - {link: "/sponsor/", text: "Sponsor CPPP"}
 
 # About Block

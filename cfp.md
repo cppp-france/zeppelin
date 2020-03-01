@@ -5,6 +5,8 @@ permalink: /cfp/
 isStaticPost: true
 ---
 
+**Talk submissions are closed for CPPP 2020**
+
 #### Who should propose a talk?
 
 Anybody who wants to!
@@ -61,10 +63,4 @@ As a speaker, you will be key in how attendees enjoy their conference. That is w
 
 #### How to submit your proposal?
 
-To submit a talk proposal, you just need to fill the following form:
-
-<https://forms.gle/jt1ZifEn1NUJ1Qd49>
-
-You will receive a link allowing you to edit the form until the end of the call on February 29th, 2020.
-
-<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cfp.jpg" style="display:none">
+**Talk submissions are closed for CPPP 2020**
