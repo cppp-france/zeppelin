@@ -58,9 +58,10 @@ bottomNavigationLinks:
 # Hero Block
 heroImage: "header.png"
 heroTitle: "CPPP 2020"
-eventDate: "June 22-23, 2020"
+eventDate: "CANCELED"
 heroButtons:
- - {link: "#tickets", text: "Buy your ticket for CPPP"}
+ - {link: "/blog/canceled", text: "CPPP 2020 is canceled"}
+# - {link: "#tickets", text: "Buy your ticket for CPPP"}
 
 # About Block
 aboutTitle: "An international C++ conference in the heart of Paris"

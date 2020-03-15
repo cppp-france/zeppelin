@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "CPPP 2020 is canceled"
+date:   2020-03-15 10:00:00
+isStaticPost: false
+---
+
+Given the current worldwide sanitary crisis, we have decided to cancel the event for 2020.
+
+All sold tickets will be fully refunded.
+
+We had some extremely exciting talk proposals that we hope to be able to plan for the next edition.
+
+We hope to see you all in 2021. Take care of yourselves in the meantime!
+
+#### Any questions? 
+
+For general questions, email us at [contact@cppp.fr](mailto:contact@cppp.fr)
